@@ -2,11 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
 	int birthMonth = 13;
-	if (birthMonth < 1)
+	if (birthMonth < 1) // if birth month is below 1, the output below will display to tell user that value is out of range
     {
         System.out.println("You entered an incorrect month value: " + birthMonth); // if birth month is below 1, output will tell user that they entered an incorrect value, as value must be between 1-12
     }
-	else if (birthMonth > 12)
+	else if (birthMonth > 12) // if birth month is over 12, the output below will display to tell user that value is out of range
     {
         System.out.println("You entered an incorrect month value: " + birthMonth); // if birth month is over 12, output will tell user that they entered an incorrect value, as value must be between 1-12
     }
